@@ -7,7 +7,7 @@ from fastapi import FastAPI, File, Form, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from scipy.fft import fft, fftfreq
 
-from server.backend.filters import apply_filter
+from backend.filters import apply_filter
 
 app = FastAPI(title="Noise Cleaner API")
 
