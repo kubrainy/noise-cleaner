@@ -125,6 +125,7 @@ async function onProcess(config: FilterConfig) {
         icon: 'i-heroicons-adjustments-horizontal',
       },
     ]"
-    class="mt-8"
+    class="mt-2"
+    :ui="{ container: 'py-8 sm:py-10 gap-6 sm:gap-10' }"
   />
 </template>

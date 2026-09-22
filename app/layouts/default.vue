@@ -21,6 +21,17 @@
             © {{ new Date().getFullYear() }} Noise Cleaner
           </p>
         </template>
+        <template #right>
+          <a
+            href="https://kubrainy.me/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Kubrainy portfolyo sitesi (kubrainy.me)"
+            class="inline-flex opacity-70 transition-opacity hover:opacity-100"
+          >
+            <img src="/kubrainy-logo.png" alt="Kubrainy logo" class="h-6 w-6">
+          </a>
+        </template>
       </UFooter>
     </div>
   </div>

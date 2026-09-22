@@ -33,6 +33,9 @@ export default defineNuxtConfig({
   },
   css: ['~/assets/css/main.css'],
   modules: ['@nuxt/ui', '@vercel/analytics/nuxt'],
+  ui: {
+    colorMode: false,
+  },
   routeRules: {
     '/api/filter': { proxy: 'http://127.0.0.1:8000/api/filter' },
   },
