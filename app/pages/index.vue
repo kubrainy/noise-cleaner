@@ -15,7 +15,7 @@ useHead({
         '@context': 'https://schema.org',
         '@type': 'WebApplication',
         'name': 'Noise Cleaner',
-        'url': 'https://noise-cleaner-chi.vercel.app/',
+        'url': 'https://noise-cleaner.kubrainy.me/',
         'description': 'Ses dosyalarındaki istenmeyen gürültüyü online temizleyen, yüksek geçiren, alçak geçiren ve bant geçiren filtreler sunan ücretsiz web uygulaması.',
         'applicationCategory': 'MultimediaApplication',
         'operatingSystem': 'Any',

@@ -1,7 +1,7 @@
 import tailwindcss from '@tailwindcss/vite'
 import { defineNuxtConfig } from 'nuxt/config'
 
-const siteUrl = 'https://noise-cleaner-chi.vercel.app'
+const siteUrl = 'https://noise-cleaner.kubrainy.me'
 const siteName = 'Noise Cleaner'
 const siteDescription = 'Noise Cleaner ile ses dosyalarınızdaki istenmeyen gürültüyü ücretsiz ve online temizleyin. WAV dosyalarınıza yüksek geçiren, alçak geçiren ve bant geçiren filtreler uygulayın, sonucu anında dinleyip indirin.'
 
@@ -16,6 +16,7 @@ export default defineNuxtConfig({
         { rel: 'canonical', href: siteUrl },
       ],
       meta: [
+        { name: 'google-site-verification', content: 'MOUMAGn-UUo3hztwCD0gdhGlF9iSqDkXqwq-RXYQs28' },
         { name: 'description', content: siteDescription },
         { name: 'robots', content: 'index, follow' },
         { name: 'author', content: siteName },

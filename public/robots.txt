@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://noise-cleaner-chi.vercel.app/sitemap.xml
+Sitemap: https://noise-cleaner.kubrainy.me/sitemap.xml
