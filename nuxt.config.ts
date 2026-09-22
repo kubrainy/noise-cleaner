@@ -37,6 +37,9 @@ export default defineNuxtConfig({
   ui: {
     colorMode: false,
   },
+  icon: {
+    localApiEndpoint: '/_icon',
+  },
   routeRules: {
     '/api/filter': { proxy: 'http://127.0.0.1:8000/api/filter' },
   },
