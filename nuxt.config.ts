@@ -32,7 +32,7 @@ export default defineNuxtConfig({
     },
   },
   css: ['~/assets/css/main.css'],
-  modules: ['@nuxt/ui'],
+  modules: ['@nuxt/ui', '@vercel/analytics/nuxt'],
   routeRules: {
     '/api/filter': { proxy: 'http://127.0.0.1:8000/api/filter' },
   },
